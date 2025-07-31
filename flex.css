@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 6px;
+}
+.box1 {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: aqua;
+}
+.box2 {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: rgb(30, 0, 255);
+}
+.box3 {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: rgb(255, 0, 0);
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 6px;
+}

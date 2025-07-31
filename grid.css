@@ -1,0 +1,33 @@
+/* Center .container in the viewport */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+}
+
+/* Center .box2 inside .box1 */
+.box1,
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  height: 60vmin;
+  width: 60vmin;
+  background-color: aqua;
+}
+
+.box2 {
+  height: 36vmin;
+  width: 36vmin;
+  background-color: rgb(155, 165, 42);
+}
+
+.box3 {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: red;
+}
